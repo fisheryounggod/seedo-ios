@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BA740F54DD67D973481C9D /* SeedoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90AB770A724E2DCAA8090CF /* SeedoApp.swift */; };
+		0B363FB64B8AD37508CC6AE6 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB9E0B47911AE3F7557396C /* Charts.framework */; };
+		2197892A761A6F0C0ED28A28 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9013A5A355F45F49757C2FD /* SoundService.swift */; };
+		35293FF8A93EED033DB1A850 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8688C81A2DD166FF17375605 /* AppState.swift */; };
+		39F9A4B7D4F85D63016E7E56 /* SessionEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28A000DA13966988CB3073B /* SessionEditorView.swift */; };
+		41A48E4B765B5F31C43E7867 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80912FB29A597452560A38FF /* WidgetKit.framework */; };
+		46C10BE0EA35D7BE891F4DCD /* SwiftData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5DE0E46FF1624F87ADACB7 /* SwiftData.framework */; };
+		49CA0ABE3F88B254B85B6D34 /* SeedoSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0562BAB1CB0EC87F661CD3 /* SeedoSchema.swift */; };
+		4DE79FE1E65594F9F48C09BA /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B1B6B068799BB1155ED353 /* NotificationService.swift */; };
+		5106653153763ED7ECFE5D31 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3669466660139CF207C3D4 /* TimerView.swift */; };
+		51378864E6032CF9297CF584 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C81EEE3EB5B96B7CFDFC81E /* SettingsView.swift */; };
+		5903D4302F6C23D317E8C957 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C51468B63454408514206C /* KeychainHelper.swift */; };
+		5B4DC232CED34AD7A2612947 /* SeedoActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443465B881AD5EBCF11ECF45 /* SeedoActivityWidget.swift */; };
+		5D5BB7CDC6F08E41138209FC /* GeminiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DDDE550854BBD4D198D23 /* GeminiService.swift */; };
+		6E5684EBF8D7F1858A7D6778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D275F731A6311FB5A3ED931B /* Assets.xcassets */; };
+		82CEF0B02C776D8D34C584C3 /* SummaryContextBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4866970DFE22012B6D3E9B /* SummaryContextBuilder.swift */; };
+		8B886FF0AAF679802ACD720D /* FocusActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED09AEDC9811F5047A8FF50 /* FocusActivityAttributes.swift */; };
+		9C67D0EC5B0D5D03E80C5B4F /* LiveActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4260C778D7C3FEABAF55C6DD /* LiveActivityService.swift */; };
+		9F675609C51B3F136BC9E2E1 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB29608801766076234AD5D9 /* SwiftUI.framework */; };
+		A04009230B0C5D6E94CD0850 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B368877A2EDCE93764182A89 /* MainTabView.swift */; };
+		A3B0917A3815B87C95219E48 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B271197F9A9CDF5182099E /* EventKit.framework */; };
+		CAE99BFD27957EA737F35B50 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53C11F03927D910B8FD91 /* AIService.swift */; };
+		CAF4CCF1A38F93E34604B2BB /* SeedoWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2E2CD28C2BAD4EC8CAE4EE5F /* SeedoWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD9B7EF3D8E0FE5A4176E972 /* CalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BA9C4174B0B5A48882158 /* CalendarService.swift */; };
+		D9A2464E098FDC71B36D6D71 /* SessionLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13B252CC27895C510D21E0E /* SessionLogView.swift */; };
+		E06E35F84590106F013DC476 /* FocusActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED09AEDC9811F5047A8FF50 /* FocusActivityAttributes.swift */; };
+		E2B2FB4D7180B4680A9390D7 /* SummaryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0CAA588877D4156930755B /* SummaryDetailView.swift */; };
+		E97CB6357155EEE6299CF52E /* PlanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B15B552A15FC7FB780BC81 /* PlanService.swift */; };
+		EE03DFA267907665D46C21AE /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD6BEB0948CBF9792A994D /* StatsView.swift */; };
+		FAD5FA8C9ED8EE60B848DC0B /* ActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 900E8A3D23A9F9FFFAF8500A /* ActivityKit.framework */; };
+		FE92B3C4DF38C7F12B43CEF0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738FD70522E66308482F5C6E /* DataService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A5CC6C919F70610C54711A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF512113F6B43721CFF65218 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2E1B8FF1DFCAF7938D515B1;
+			remoteInfo = SeedoWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF5C633EA6D50E1EBD87451D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CAF4CCF1A38F93E34604B2BB /* SeedoWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04C51468B63454408514206C /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		0C7BA9C4174B0B5A48882158 /* CalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarService.swift; sourceTree = "<group>"; };
+		1E4866970DFE22012B6D3E9B /* SummaryContextBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryContextBuilder.swift; sourceTree = "<group>"; };
+		2E2CD28C2BAD4EC8CAE4EE5F /* SeedoWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SeedoWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4260C778D7C3FEABAF55C6DD /* LiveActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityService.swift; sourceTree = "<group>"; };
+		443465B881AD5EBCF11ECF45 /* SeedoActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedoActivityWidget.swift; sourceTree = "<group>"; };
+		44C03BA2E11DDDBCD0D9C922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		464A66E9ABD8C0B76E14791E /* SeedoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeedoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		738FD70522E66308482F5C6E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		75D53C11F03927D910B8FD91 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		7CB9E0B47911AE3F7557396C /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = System/Library/Frameworks/Charts.framework; sourceTree = SDKROOT; };
+		80912FB29A597452560A38FF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		81B1B6B068799BB1155ED353 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		8688C81A2DD166FF17375605 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		8ABD6BEB0948CBF9792A994D /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		8C81EEE3EB5B96B7CFDFC81E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8D0562BAB1CB0EC87F661CD3 /* SeedoSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedoSchema.swift; sourceTree = "<group>"; };
+		900E8A3D23A9F9FFFAF8500A /* ActivityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActivityKit.framework; path = System/Library/Frameworks/ActivityKit.framework; sourceTree = SDKROOT; };
+		9ED09AEDC9811F5047A8FF50 /* FocusActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusActivityAttributes.swift; sourceTree = "<group>"; };
+		A9013A5A355F45F49757C2FD /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		A9B271197F9A9CDF5182099E /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		B368877A2EDCE93764182A89 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CB29608801766076234AD5D9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CC0CAA588877D4156930755B /* SummaryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryDetailView.swift; sourceTree = "<group>"; };
+		CE5DE0E46FF1624F87ADACB7 /* SwiftData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftData.framework; path = System/Library/Frameworks/SwiftData.framework; sourceTree = SDKROOT; };
+		D0B15B552A15FC7FB780BC81 /* PlanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanService.swift; sourceTree = "<group>"; };
+		D275F731A6311FB5A3ED931B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB8DDDE550854BBD4D198D23 /* GeminiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiService.swift; sourceTree = "<group>"; };
+		E13B252CC27895C510D21E0E /* SessionLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionLogView.swift; sourceTree = "<group>"; };
+		E90AB770A724E2DCAA8090CF /* SeedoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedoApp.swift; sourceTree = "<group>"; };
+		F28A000DA13966988CB3073B /* SessionEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionEditorView.swift; sourceTree = "<group>"; };
+		FC3669466660139CF207C3D4 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DB8AE4C57DCEF23A92B8E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F675609C51B3F136BC9E2E1 /* SwiftUI.framework in Frameworks */,
+				46C10BE0EA35D7BE891F4DCD /* SwiftData.framework in Frameworks */,
+				0B363FB64B8AD37508CC6AE6 /* Charts.framework in Frameworks */,
+				A3B0917A3815B87C95219E48 /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E36F56EE4C3E1BE16300CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A48E4B765B5F31C43E7867 /* WidgetKit.framework in Frameworks */,
+				FAD5FA8C9ED8EE60B848DC0B /* ActivityKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02494FB5F938CCD13F6FA900 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8D0562BAB1CB0EC87F661CD3 /* SeedoSchema.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		067DD7461BDA6B5563BEED82 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8C81EEE3EB5B96B7CFDFC81E /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		394E724B6BDA5DC4128195A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B368877A2EDCE93764182A89 /* MainTabView.swift */,
+				5522ADCBA889256C0A933283 /* Focus */,
+				4BCDA82B4E7355DC27632C6E /* Insights */,
+				067DD7461BDA6B5563BEED82 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43A1A127D433DF4AD94D5130 /* SeedoWidget */ = {
+			isa = PBXGroup;
+			children = (
+				44C03BA2E11DDDBCD0D9C922 /* Info.plist */,
+				443465B881AD5EBCF11ECF45 /* SeedoActivityWidget.swift */,
+			);
+			path = SeedoWidget;
+			sourceTree = "<group>";
+		};
+		4BCDA82B4E7355DC27632C6E /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				F28A000DA13966988CB3073B /* SessionEditorView.swift */,
+				8ABD6BEB0948CBF9792A994D /* StatsView.swift */,
+				CC0CAA588877D4156930755B /* SummaryDetailView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		5522ADCBA889256C0A933283 /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				E13B252CC27895C510D21E0E /* SessionLogView.swift */,
+				FC3669466660139CF207C3D4 /* TimerView.swift */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		6CAB4E9CBAEFB8B485A08FD4 /* SeedoIOS */ = {
+			isa = PBXGroup;
+			children = (
+				D275F731A6311FB5A3ED931B /* Assets.xcassets */,
+				821A25CB614C117D4CAE2985 /* App */,
+				02494FB5F938CCD13F6FA900 /* Data */,
+				AF37CF7C92FFB63D0C76FBEE /* Services */,
+				9AD9669836B070D3277B101B /* State */,
+				394E724B6BDA5DC4128195A9 /* Views */,
+			);
+			path = SeedoIOS;
+			sourceTree = "<group>";
+		};
+		821A25CB614C117D4CAE2985 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E90AB770A724E2DCAA8090CF /* SeedoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9AD9669836B070D3277B101B /* State */ = {
+			isa = PBXGroup;
+			children = (
+				8688C81A2DD166FF17375605 /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		AF204E9A83C8669DC091C6E6 = {
+			isa = PBXGroup;
+			children = (
+				6CAB4E9CBAEFB8B485A08FD4 /* SeedoIOS */,
+				43A1A127D433DF4AD94D5130 /* SeedoWidget */,
+				D215839A8B5DC53462A70A60 /* Frameworks */,
+				E16288403B3C877D52B61F92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF37CF7C92FFB63D0C76FBEE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				75D53C11F03927D910B8FD91 /* AIService.swift */,
+				0C7BA9C4174B0B5A48882158 /* CalendarService.swift */,
+				738FD70522E66308482F5C6E /* DataService.swift */,
+				9ED09AEDC9811F5047A8FF50 /* FocusActivityAttributes.swift */,
+				DB8DDDE550854BBD4D198D23 /* GeminiService.swift */,
+				04C51468B63454408514206C /* KeychainHelper.swift */,
+				4260C778D7C3FEABAF55C6DD /* LiveActivityService.swift */,
+				81B1B6B068799BB1155ED353 /* NotificationService.swift */,
+				D0B15B552A15FC7FB780BC81 /* PlanService.swift */,
+				A9013A5A355F45F49757C2FD /* SoundService.swift */,
+				1E4866970DFE22012B6D3E9B /* SummaryContextBuilder.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D215839A8B5DC53462A70A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				900E8A3D23A9F9FFFAF8500A /* ActivityKit.framework */,
+				7CB9E0B47911AE3F7557396C /* Charts.framework */,
+				A9B271197F9A9CDF5182099E /* EventKit.framework */,
+				CE5DE0E46FF1624F87ADACB7 /* SwiftData.framework */,
+				CB29608801766076234AD5D9 /* SwiftUI.framework */,
+				80912FB29A597452560A38FF /* WidgetKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E16288403B3C877D52B61F92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				464A66E9ABD8C0B76E14791E /* SeedoIOS.app */,
+				2E2CD28C2BAD4EC8CAE4EE5F /* SeedoWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D459D64BC1A47F3BB6EC6EA /* SeedoIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860C3F9B5C1D822509420B23 /* Build configuration list for PBXNativeTarget "SeedoIOS" */;
+			buildPhases = (
+				DFBA16DA8F26D0141EA1669B /* Sources */,
+				C8CDDAC1A0EFAF58198AC363 /* Resources */,
+				9DB8AE4C57DCEF23A92B8E61 /* Frameworks */,
+				CF5C633EA6D50E1EBD87451D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E4D926818C9914C61C9A96C /* PBXTargetDependency */,
+			);
+			name = SeedoIOS;
+			packageProductDependencies = (
+			);
+			productName = SeedoIOS;
+			productReference = 464A66E9ABD8C0B76E14791E /* SeedoIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2E1B8FF1DFCAF7938D515B1 /* SeedoWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BBEDA14005217901AFF273 /* Build configuration list for PBXNativeTarget "SeedoWidget" */;
+			buildPhases = (
+				50DB4B567525372C691CB3B9 /* Sources */,
+				B5E36F56EE4C3E1BE16300CA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeedoWidget;
+			packageProductDependencies = (
+			);
+			productName = SeedoWidget;
+			productReference = 2E2CD28C2BAD4EC8CAE4EE5F /* SeedoWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF512113F6B43721CFF65218 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0D459D64BC1A47F3BB6EC6EA = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BC14EB53D3359BDC36E8701A /* Build configuration list for PBXProject "SeedoIOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = AF204E9A83C8669DC091C6E6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E16288403B3C877D52B61F92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D459D64BC1A47F3BB6EC6EA /* SeedoIOS */,
+				A2E1B8FF1DFCAF7938D515B1 /* SeedoWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8CDDAC1A0EFAF58198AC363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5684EBF8D7F1858A7D6778 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50DB4B567525372C691CB3B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B886FF0AAF679802ACD720D /* FocusActivityAttributes.swift in Sources */,
+				5B4DC232CED34AD7A2612947 /* SeedoActivityWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA16DA8F26D0141EA1669B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE99BFD27957EA737F35B50 /* AIService.swift in Sources */,
+				35293FF8A93EED033DB1A850 /* AppState.swift in Sources */,
+				CD9B7EF3D8E0FE5A4176E972 /* CalendarService.swift in Sources */,
+				FE92B3C4DF38C7F12B43CEF0 /* DataService.swift in Sources */,
+				E06E35F84590106F013DC476 /* FocusActivityAttributes.swift in Sources */,
+				5D5BB7CDC6F08E41138209FC /* GeminiService.swift in Sources */,
+				5903D4302F6C23D317E8C957 /* KeychainHelper.swift in Sources */,
+				9C67D0EC5B0D5D03E80C5B4F /* LiveActivityService.swift in Sources */,
+				A04009230B0C5D6E94CD0850 /* MainTabView.swift in Sources */,
+				4DE79FE1E65594F9F48C09BA /* NotificationService.swift in Sources */,
+				E97CB6357155EEE6299CF52E /* PlanService.swift in Sources */,
+				01BA740F54DD67D973481C9D /* SeedoApp.swift in Sources */,
+				49CA0ABE3F88B254B85B6D34 /* SeedoSchema.swift in Sources */,
+				39F9A4B7D4F85D63016E7E56 /* SessionEditorView.swift in Sources */,
+				D9A2464E098FDC71B36D6D71 /* SessionLogView.swift in Sources */,
+				51378864E6032CF9297CF584 /* SettingsView.swift in Sources */,
+				2197892A761A6F0C0ED28A28 /* SoundService.swift in Sources */,
+				EE03DFA267907665D46C21AE /* StatsView.swift in Sources */,
+				82CEF0B02C776D8D34C584C3 /* SummaryContextBuilder.swift in Sources */,
+				E2B2FB4D7180B4680A9390D7 /* SummaryDetailView.swift in Sources */,
+				5106653153763ED7ECFE5D31 /* TimerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E4D926818C9914C61C9A96C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2E1B8FF1DFCAF7938D515B1 /* SeedoWidget */;
+			targetProxy = 9A5CC6C919F70610C54711A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03573CF5C7D6C379C842D68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		200F5C523AA4E733B928D722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4C37ATRVA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Seedo 需要访问日历以将你的专注记录同步为日历事件。";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "Seedo 需要访问日历以将你的专注记录同步为日历事件，帮助你直观回顾一天的成果。";
+				INFOPLIST_KEY_UIApplicationShortcutItems = (
+					{
+						UIApplicationShortcutItemType = "tech.seedo.ios.focus25";
+						UIApplicationShortcutItemTitle = "开始 25 分钟专注";
+						UIApplicationShortcutItemIconType = "UIApplicationShortcutIconTypePlay";
+					},
+					{
+						UIApplicationShortcutItemType = "tech.seedo.ios.insights";
+						UIApplicationShortcutItemTitle = "查看专注统计";
+						UIApplicationShortcutItemIconType = "UIApplicationShortcutIconTypeDate";
+					},
+					{
+						UIApplicationShortcutItemType = "tech.seedo.ios.settings";
+						UIApplicationShortcutItemTitle = "设置";
+						UIApplicationShortcutItemIconType = "UIApplicationShortcutIconTypeSettings";
+					},
+					{
+						UIApplicationShortcutItemType = "tech.seedo.ios.add_record";
+						UIApplicationShortcutItemTitle = "手动添加记录";
+						UIApplicationShortcutItemIconType = "UIApplicationShortcutIconTypeAdd";
+					},
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.seedo.ios;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				UIRequiresFullScreen = YES;
+			};
+			name = Release;
+		};
+		59EB4EE873BEA04ED6919488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4C37ATRVA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeedoWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.seedo.ios.widget;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0FDA8AF0C9F69CC157119A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D70FC38D4774EBD1DAD64065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4C37ATRVA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeedoWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.seedo.ios.widget;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA69CE28126485561841ADED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4C37ATRVA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Seedo 需要访问日历以将你的专注记录同步为日历事件。";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "Seedo 需要访问日历以将你的专注记录同步为日历事件，帮助你直观回顾一天的成果。";
+				INFOPLIST_KEY_UIApplicationShortcutItems = (
+					{
+						UIApplicationShortcutItemType = "tech.seedo.ios.focus25";
+						UIApplicationShortcutItemTitle = "开始 25 分钟专注";
+						UIApplicationShortcutItemIconType = "UIApplicationShortcutIconTypePlay";
+					},
+					{
+						UIApplicationShortcutItemType = "tech.seedo.ios.insights";
+						UIApplicationShortcutItemTitle = "查看专注统计";
+						UIApplicationShortcutItemIconType = "UIApplicationShortcutIconTypeDate";
+					},
+					{
+						UIApplicationShortcutItemType = "tech.seedo.ios.settings";
+						UIApplicationShortcutItemTitle = "设置";
+						UIApplicationShortcutItemIconType = "UIApplicationShortcutIconTypeSettings";
+					},
+					{
+						UIApplicationShortcutItemType = "tech.seedo.ios.add_record";
+						UIApplicationShortcutItemTitle = "手动添加记录";
+						UIApplicationShortcutItemIconType = "UIApplicationShortcutIconTypeAdd";
+					},
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.seedo.ios;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				UIRequiresFullScreen = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26BBEDA14005217901AFF273 /* Build configuration list for PBXNativeTarget "SeedoWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70FC38D4774EBD1DAD64065 /* Debug */,
+				59EB4EE873BEA04ED6919488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		860C3F9B5C1D822509420B23 /* Build configuration list for PBXNativeTarget "SeedoIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA69CE28126485561841ADED /* Debug */,
+				200F5C523AA4E733B928D722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BC14EB53D3359BDC36E8701A /* Build configuration list for PBXProject "SeedoIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03573CF5C7D6C379C842D68B /* Debug */,
+				B0FDA8AF0C9F69CC157119A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF512113F6B43721CFF65218 /* Project object */;
+}
